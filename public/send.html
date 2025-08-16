@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Files - Simple File Share</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-share-alt"></i> Simple File Share</h1>
+            <div class="user-id">
+                <span>Your ID: </span>
+                <span id="userId"></span>
+                <button id="copyId"><i class="far fa-copy"></i></button>
+            </div>
+        </header>
+
+        <main>
+            <button id="backBtn" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back
+            </button>
+            
+            <div id="connectionStatus" class="connection-status disconnected">
+                <i class="fas fa-plug"></i> Not connected
+            </div>
+            
+            <div class="input-group">
+                <label for="receiverId">Receiver ID</label>
+                <input type="text" id="receiverId" placeholder="Enter receiver's ID">
+            </div>
+            
+            <button id="connectBtn" class="btn-primary">
+                <i class="fas fa-link"></i> Connect
+            </button>
+            
+            <div class="file-upload" id="fileUpload">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Drag & drop files here or click to browse</p>
+                <p class="small">Supports multiple files</p>
+                <input type="file" id="fileInput" multiple>
+            </div>
+            
+            <div class="file-list" id="fileList"></div>
+            
+            <button id="sendBtn" class="send-btn" disabled>
+                <i class="fas fa-paper-plane"></i> Send Files
+            </button>
+        </main>
+    </div>
+
+    <script src="js/send.js"></script>
+</body>
+</html>

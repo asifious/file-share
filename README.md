@@ -1,4 +1,4 @@
-# File Share
+# Simple File Share
 
 A modern web application for sending files between devices (mobile-to-mobile, PC-to-PC, or mobile-to-PC).
 
