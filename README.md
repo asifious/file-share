@@ -19,6 +19,12 @@ A modern web application for sending files between devices (mobile-to-mobile, PC
 3. Start the server: `npm start`
 4. Open `http://localhost:3000` in your browser
 
+## Project Structure
+
+```markdown
+## Project Structure
+
+```bash
 file-share/
 ├── public/
 │   ├── css/
@@ -46,3 +52,4 @@ file-share/
 - Frontend: HTML5, CSS3, JavaScript
 
 - Backend: Node.js, Express, WebSocket
+
