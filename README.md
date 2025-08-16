@@ -2,6 +2,9 @@
 
 A modern web application for sending files between devices (mobile-to-mobile, PC-to-PC, or mobile-to-PC).
 
+<img width="465" height="469" alt="image" src="https://github.com/user-attachments/assets/30dd2241-87f9-487a-b7f7-cbd197c52519" />
+
+
 ## Features
 
 - Auto-generated temporary user ID
@@ -51,3 +54,4 @@ file-share/
 
 - Frontend: HTML5, CSS3, JavaScript
 - Backend: Node.js, Express, WebSocket
+
