@@ -1,4 +1,4 @@
-# File Share
+# Simple File Share
 
 A modern web application for sending files between devices (mobile-to-mobile, PC-to-PC, or mobile-to-PC).
 
@@ -19,12 +19,9 @@ A modern web application for sending files between devices (mobile-to-mobile, PC
 3. Start the server: `npm start`
 4. Open `http://localhost:3000` in your browser
 
+```
 ## Project Structure
 
-```markdown
-## Project Structure
-
-```bash
 file-share/
 ├── public/
 │   ├── css/
@@ -39,6 +36,9 @@ file-share/
 │   └── ws-server.js
 ├── package.json
 └── README.md
+ 
+ ```
+
 
 ## Usage
 
@@ -50,6 +50,4 @@ file-share/
 ## Technology Stack
 
 - Frontend: HTML5, CSS3, JavaScript
-
 - Backend: Node.js, Express, WebSocket
-
