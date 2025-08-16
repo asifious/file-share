@@ -1,4 +1,4 @@
-# Simple File Share
+# File Share
 
 A modern web application for sending files between devices (mobile-to-mobile, PC-to-PC, or mobile-to-PC).
 
@@ -44,4 +44,5 @@ file-share/
 ## Technology Stack
 
 - Frontend: HTML5, CSS3, JavaScript
+
 - Backend: Node.js, Express, WebSocket
